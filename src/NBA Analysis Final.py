@@ -63,12 +63,20 @@ final_basic = final_basic.drop(["TEAM_ID", "MIN", "GP_RANK", "MIN_RANK"], axis=1
 final_basic.to_csv("basic_NBA_data.csv", index=False)
 
 
-# Combined advanced and basic NBA data, and replaced null values, to csv
+# Combined advanced and basic NBA data to csv
 final_data1 = pd.read_csv("finalized_NBA_data.csv")
 final_data2 = pd.read_csv("basic_NBA_data.csv")
 final_df = pd.concat([final_data1, final_data2])
+
+# Dropped and replaced null values
+final_df.dropna(subset=["TEAM_NAME"], inplace=True)
 final_df.fillna(0, inplace=True)
-final_df.to_csv("NBA_combined_data.csv", index=False)
+
+# Reset index
+final_df.reset_index(drop=True, inplace=True)
+
+# To csv
+final_df.to_csv('NBA_combined_data.csv', index=False)
 
 
 # -----------------------
