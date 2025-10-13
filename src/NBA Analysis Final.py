@@ -56,7 +56,7 @@ final_advanced = final_advanced.drop(
     ],
     axis=1
 )
-final_advanced.to_csv("finalized_NBA_data.csv", index=False)
+final_advanced.to_csv("advanced_NBA_data.csv", index=False)
 
 
 # -------- Fetch Basic Data --------
@@ -82,7 +82,7 @@ final_basic.to_csv("basic_NBA_data.csv", index=False)
 
 
 # Combined advanced and basic NBA data to csv
-final_data1 = pd.read_csv("finalized_NBA_data.csv")
+final_data1 = pd.read_csv("advanced_NBA_data.csv")
 final_data2 = pd.read_csv("basic_NBA_data.csv")
 final_df = pd.concat([final_data1, final_data2])
 
