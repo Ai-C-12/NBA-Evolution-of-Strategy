@@ -93,7 +93,7 @@ final_df.dropna(subset=["TEAM_NAME"], inplace=True)
 pct_cols = [c for c in final_df.columns if "PCT" in c]
 
 # Fill NaNs percentage with season average
-final_df[pct_cols] = final_df.groupby("SEASON")[pct_cols].transform("mean")
+final_df[pct_cols] = final_df.groupby("SEASON")[pct_cols].transform("mean").round(3)
 final_df.fillna(0, inplace=True)
 
 # Reset index
