@@ -46,8 +46,15 @@ for season in seasons:
 
 final_advanced = pd.concat(advanced_data, ignore_index=True)
 final_advanced = final_advanced.drop(
-    ["TEAM_ID", "MIN", "E_OFF_RATING", "E_DEF_RATING", "E_NET_RATING", 
-     "E_PACE", "PACE_PER40", "GP_RANK"], axis=1
+    [
+        "TEAM_ID", "MIN", "E_OFF_RATING", "E_DEF_RATING", "E_NET_RATING",
+        "E_PACE", "PACE_PER40", "GP_RANK", "W_RANK", "L_RANK", "W_PCT_RANK",
+        "MIN_RANK", "OFF_RATING_RANK", "DEF_RATING_RANK", "NET_RATING_RANK",
+        "AST_PCT_RANK", "AST_TO_RANK", "AST_RATIO_RANK", "OREB_PCT_RANK",
+        "DREB_PCT_RANK", "REB_PCT_RANK", "TM_TOV_PCT_RANK", "EFG_PCT_RANK",
+        "TS_PCT_RANK", "PACE_RANK", "PIE_RANK"
+    ],
+    axis=1
 )
 final_advanced.to_csv("finalized_NBA_data.csv", index=False)
 
@@ -59,7 +66,18 @@ for season in seasons:
     time.sleep(0.6)
 
 final_basic = pd.concat(basic_data, ignore_index=True)
-final_basic = final_basic.drop(["TEAM_ID", "MIN", "GP_RANK", "MIN_RANK"], axis=1)
+final_basic = final_basic.drop(
+    [
+        "TEAM_ID", "MIN", "GP_RANK", "MIN_RANK", "W_RANK", 
+        "L_RANK", "W_PCT_RANK", "FGM_RANK", "FGA_RANK", 
+        "FG_PCT_RANK", "FG3M_RANK", "FG3A_RANK", "FG3_PCT_RANK", 
+        "FTM_RANK", "FTA_RANK", "FT_PCT_RANK", "OREB_RANK", 
+        "DREB_RANK", "REB_RANK", "AST_RANK", "TOV_RANK", 
+        "STL_RANK", "BLK_RANK", "BLKA_RANK", "PF_RANK", 
+        "PFD_RANK", "PTS_RANK", "PLUS_MINUS_RANK"
+    ],
+    axis=1
+)
 final_basic.to_csv("basic_NBA_data.csv", index=False)
 
 
