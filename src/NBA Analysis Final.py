@@ -84,10 +84,16 @@ final_basic.to_csv("basic_NBA_data.csv", index=False)
 # Combined advanced and basic NBA data to csv
 final_data1 = pd.read_csv("advanced_NBA_data.csv")
 final_data2 = pd.read_csv("basic_NBA_data.csv")
-final_df = pd.concat([final_data1, final_data2])
+final_df = pd.concat([final_data1, final_data2], ignore_index=True)
 
 # Dropped and replaced null values
 final_df.dropna(subset=["TEAM_NAME"], inplace=True)
+
+# Find columns with "PCT" in the name
+pct_cols = [c for c in final_df.columns if "PCT" in c]
+
+# Fill NaNs percentage with season average
+final_df[pct_cols] = final_df.groupby("SEASON")[pct_cols].transform("mean")
 final_df.fillna(0, inplace=True)
 
 # Reset index
