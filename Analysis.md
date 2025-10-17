@@ -11,17 +11,22 @@ Data was collected from official NBA box scores and advanced statistics spanning
 <img width="1070" height="547" alt="Pace vs Possessions" src="https://github.com/user-attachments/assets/2070f74b-d2fd-4816-a194-5fad292c92b1" />
 Placeholder
 
+
 <img width="1189" height="790" alt="Defense" src="https://github.com/user-attachments/assets/1fef9ac0-9cdb-4d9c-b39c-f6df179387d1" />
 Placeholder
+
 
 <img width="1010" height="584" alt="Rebounding Strategy (Every 5 Seasons)" src="https://github.com/user-attachments/assets/e4a5ad3b-f580-4c3c-a326-6be95b494c8b" />
 Placeholder
 
+
 <img width="1074" height="547" alt="Scoring Efficiency" src="https://github.com/user-attachments/assets/d27ffc75-30a5-41a5-8151-89560e833c94" />
 Placeholder
 
+
 <img width="1074" height="528" alt="3-Point Efficiency" src="https://github.com/user-attachments/assets/7e6485db-dfe9-4746-b4a0-d2fc39f883a2" />
 Placeholder
+
 
 <img width="1010" height="547" alt="Assists vs Iso" src="https://github.com/user-attachments/assets/2a4aa397-0b36-430e-b5bf-fcae26105238" />
 Placeholder
