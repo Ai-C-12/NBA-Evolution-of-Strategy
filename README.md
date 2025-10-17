@@ -30,10 +30,21 @@ We analyze NBA league basic counting data and advanced metric data from the offi
 Short background and the research question(s) being answered.
 
 ## **Data**
-- Source(s): Provide URLs or instructions to request access.
-- License: e.g., CC-BY, proprietary, etc.
-- Size: rows, columns, total disk size (if relevant).
-- Data dictionary: Brief description of main variables or link to data_dictionary.md
+- **Source(s):** NBA Stats API (accessed via Python requests or nba_api library).
+- **License:** e.g., CC-BY, proprietary, etc.
+- **Size:**
+   - **Rows:** One entry per team per season (≈30 teams × ~30 seasons = ~900 rows).
+   - **Columns:** 42 total, including advanced metrics and identifiers such as season, team_id, pace, efg%, ts%, def_rating, orb%, drb%, 3pa, and 3p%.
+- **Data dictionary:** 
+   - SEASON: Year or range representing the NBA season (e.g., 2023–24).
+   - team: Team name.
+   - pace: Possessions per 48 minutes (game tempo).
+   - efg%: Effective field goal percentage (shooting efficiency).
+   - ts%: True shooting percentage (overall scoring efficiency).
+   - def_rating: Points allowed per 100 possessions.
+   - orb% / drb%: Offensive and defensive rebounding rates.
+   - 3pa / 3p%: 3-point attempts and accuracy.
+   (Full data dictionary in data_dictionary.md)
 
 ## **Methods (brief)**
 - Preprocessing steps: e.g., missing-value handling, normalization, filtering rules.
