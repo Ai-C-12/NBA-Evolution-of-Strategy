@@ -1,4 +1,4 @@
-##✨Analysis✨
+## ✨Analysis✨
 
 Avid basketball fans watch today’s NBA games and relish the claim that, “The game isn’t as good as it used to be,” or that, “Teams then were better than teams now.” For this project, I examined how teams’ statistical profiles have evolved since 2000, highlighting trends in scoring, pace, and shot selection, and exploring what teams have chosen to prioritize as the years have gone on.
 
