@@ -4,7 +4,7 @@ This project analyzes how NBA team strategies have evolved over the past two dec
 It highlights major shifts in **pace, rebounding, defense, shooting efficiency, assists vs isolation, and the rise of the 3-point shot**.
 
 ## **Key Analyses**
-We analyze NBA league basic counting data and advanced metric data from the official [NBA Stats API](https://github.com/swar/nba_api) to quantify changes in:
+We analyze NBA league basic counting data and advanced metric data from the official [NBA Stats API](https://github.com/swar/nba_api) to quantify changes in:</br>
 Pace & Possessions → How tempo has changed across eras.</br>
 Rebounding Strategy → Shift from offensive rebounding to transition defense.</br>
 Defense Trends → Defensive rating, steals, and blocks over time.</br>
