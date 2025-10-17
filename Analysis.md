@@ -1,3 +1,5 @@
+##✨Analysis✨
+
 Avid basketball fans watch today’s NBA games and relish the claim that, “The game isn’t as good as it used to be,” or that, “Teams then were better than teams now.” For this project, I examined how teams’ statistical profiles have evolved since 2000, highlighting trends in scoring, pace, and shot selection, and exploring what teams have chosen to prioritize as the years have gone on.
 
 The objective of this analysis is to explore how team strategies have changed over time using both basic statistics and advanced metrics. The goal is to identify trends in shooting behavior, game pace, defensive performance, and overall team efficiency.
