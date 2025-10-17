@@ -87,11 +87,14 @@ final_data2 = pd.read_csv("basic_NBA_data.csv")
 final_df = pd.merge(final_data1, final_data2, on=['TEAM_NAME', 'SEASON'], how='outer')
 
 # Dropped and replaced null values
-final_df.dropna(subset=["TEAM_NAME"], inplace=True)
+final_df.dropna(subset=["TEAM_NAME", "GP_y", "W_y", "L_y", "W_PCT_y"], inplace=True)
 
-# Fill NaN counting stats to 0
-counting_stats = ['FGM', 'FGA', 'FG3M', 'FG3A', 'FTM', 'FTA', 'OREB', 'DREB', 'REB', 'AST', 'TOV', 'STL', 'BLK', 'BLKA', 'PF', 'PFD', 'PTS']
-final_df[counting_stats] = final_df[counting_stats].fillna(0)
+# Rename columns
+final_df = final_df.rename(columns={"GP_x":"GP", "W_x":"W", "L_x":"L", "W_PCT_x":"W_PCT"})
+
+# Fill NaN basic stats to 0
+basic_stats = ["FGM", "FGA", "FG3M", "FG3A", "FTM", "FTA", "OREB", "DREB", "REB", "AST", "TOV", "STL", "BLK", "BLKA", "PF", "PFD", "PTS"]
+final_df[basic_stats] = final_df[basic_stats].fillna(0)
 
 # Reset index
 final_df.reset_index(drop=True, inplace=True)
