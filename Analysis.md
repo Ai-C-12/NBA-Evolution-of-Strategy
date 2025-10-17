@@ -12,27 +12,30 @@ Data was collected from official NBA box scores and advanced statistics spanning
 
 ## Pace vs Possessions
 <img width="1070" height="547" alt="Pace vs Possessions" src="https://github.com/user-attachments/assets/2070f74b-d2fd-4816-a194-5fad292c92b1" />
-This graph compares the evolution of Pace(possessions per 48 minutes) and total Possessions from the 2000–01 season through 2024–25. The data highlights how the tempo of NBA games has gradually increased, particularly after 2013, reflecting broader stylistic shifts in team play.
+This chart compares how Pace (possessions per 48 minutes) and total Possessions changed from 2000–01 to 2024–25. The data shows that the tempo of NBA games has steadily gone up, especially after 2013 — reflecting how teams started playing faster and emphasizing offense more.
 
-After remaining relatively stable in the early 2000s, both pace and total possessions began rising sharply around the mid-2010s. This period corresponds to the league’s transition toward faster, more offense-oriented basketball, the rise of small-ball lineups, and the growing emphasis on three-point shooting.
+After being fairly stable in the early 2000s, both pace and possessions began climbing in the mid-2010s. That shift lines up with the rise of small-ball lineups, transition-heavy play, and the growing importance of 3-point shooting.
+The 2014–19 Golden State Warriors were the best example of this change — their fast-paced, motion-based offense pushed spacing and tempo to new levels, influencing the entire league. Similarly, Mike D’Antoni’s “Seven Seconds or Less” Phoenix Suns (2004–08) helped start this trend years earlier, setting the stage for the pace revolution that came later.
 
 Overall, the steady increase in pace and possessions over the past decade demonstrates the league’s prioritization of speed, spacing, and offensive efficiency — core components of modern basketball strategy.
 
 
 ## Defensive Strategy
 <img width="1189" height="790" alt="Defense" src="https://github.com/user-attachments/assets/1fef9ac0-9cdb-4d9c-b39c-f6df179387d1" />
-This graph shows a side by side of the leagues defensive rating and the league's total blocks and steals statistics each season. This data highlights the league's overall defense and what teams prioritized, adapting to offense-oriented strategies.
+This graph compares Defensive Rating with total steals and blocks per season to show how team defense has evolved. This data highlights the league's overall defense and what teams prioritized, adapting to offense-oriented strategies.
 
-The steady increase in Defensive Rating indicates that teams have struggled with keeping up with the league's rapidly growing offensive game and pace. As offense prioritized more on 3-point shooting, defenses were forced to cover more ground.
+Over time, Defensive Ratings have gone up — meaning defenses have found it harder to keep up with today’s faster, more spaced-out offenses. As three-point volume increased, defenses had to cover more ground, rotate faster, and defend more in transition.
+Back in the 2000s, teams like the 2004 Detroit Pistons and 2008–2014 Boston Celtics were built on physical, half-court defense. These teams slowed the game down and forced opponents into tough midrange shots. Modern defensive powerhouses like the 2019 Raptors or 2022–23 Celtics, however, rely more on switchability and versatility — using athletic wings and mobile bigs to guard multiple positions.
 
-Overall, the data shows that while individual statistics like blocks and steals have not changed too much throughout the years, the league's overall defense is struggling to keep up with the growing dominance in offensive game. 
+Overall, the data shows that while individual statistics like blocks and steals have not changed too much throughout the years, the league's overall defense is struggling to keep up with the growing dominance in offensive game.
 
 
 ## Rebounding Strategy
 <img width="1010" height="584" alt="Rebounding Strategy (Every 5 Seasons)" src="https://github.com/user-attachments/assets/e4a5ad3b-f580-4c3c-a326-6be95b494c8b" />
-This graph shows a box chart comparison of the league's offensive and defensive rebounding percentage for every 5 years. This data highlights teams priority in defensive bigs to grab defensive boards in order to gain more offensive opportunities.
+This graph shows a box chart comparison of the league's offensive and defensive rebounding percentage for every 5 seasons. This data highlights teams priority in defensive bigs to grab defensive boards in order to gain more offensive opportunities.
 
 Since the 2012-13 season, Defensive Rebounding percentage shows an increase while Offensive rebounding has been decreasing. This reflects how the league shifts away from getting offensive boards to getting back on transition defense so as to prevent fast breaks rather than fighting for offensive boards for a second field goal attempt.
+For example, during the 2010s San Antonio Spurs and Golden State Warriors’ dynasties, both teams emphasized quickly retreating on defense after missed shots rather than contesting offensive boards. Conversely, early 2000s teams such as the Detroit Pistons or San Antonio Spurs (2003–07) often relied heavily on offensive rebounds to generate extra possessions through dominant bigs like Ben Wallace and Tim Duncan.
 
 Overall, this represents how teams are prioritizing more on pace control and quickly going back on defense as it is more risky to grab offensive rebounds due to current offense being so spread out.
 
@@ -43,6 +46,7 @@ Overall, this represents how teams are prioritizing more on pace control and qui
 These graphs represent the league's scoring efficiency. This data highlights the sharp increase in the league's overall offensive output and scoring efficiency, especially utilizing the 3-pointers. From the early 2000s to the mid-2010s, league-wide True Shooting(TS%) and Effective Field Goal(EFG%) percentages showed slow growth. However, starting around 2015–16, both metrics began a sharp upward trend, marking the start of a new offensive era in the NBA.
 
 When viewed alongside the second chart, this point aligns almost perfectly with a surge in 3-point attempts. Between 2015 and 2025, teams have increased their 3-point volume by more than double, while maintaining or even improving 3-point Effective Field Goal percentage, which rose from around 49–50% to over 54%. This indicates that teams didn’t just shoot more threes, they became significantly better at making them. The rise of 3-point efficiency and overall scoring metrics(TS% and EFG%) suggests that the three-point shot has become the single greatest contributor to modern offensive efficiency.
+The Golden State Warriors(2014–19) redefined offensive efficiency by leveraging spacing, off-ball motion, and high-volume three-point shooting. Their success encouraged other franchises — notably the Houston Rockets(2017–20) under Daryl Morey — to push shot selection to the analytical extreme, eliminating midrange shots almost entirely in favor of threes and layups.
 
 Meanwhile, total field goal attempts also trended upward, but not as sharply, implying that teams achieved higher scoring outputs without drastically increasing shot volume, but rather by optimizing shot their selection(fewer midrange, more 3s and shots near the rim).
 
@@ -51,7 +55,7 @@ Meanwhile, total field goal attempts also trended upward, but not as sharply, im
 <img width="1010" height="547" alt="Assists vs Iso" src="https://github.com/user-attachments/assets/2a4aa397-0b36-430e-b5bf-fcae26105238" />
 This graph represents the league's percentage in isolation baskets and assists baskets. This data highlights how the league's offensive game has shifted away from isolation offense to distributing the ball amongst teammates in order to get wide-open easy baskets.
 
-From 2000–2009, isolation-heavy playstyles — influenced by streetball culture — dominated offenses before analytics-driven motion systems took over. From then on, the offense has shifted to passing the ball around so that it's easier to have wide-open field goals.
+From 2000–2009, isolation-heavy playstyles — influenced by streetball culture — dominated offenses before analytics-driven motion systems took over. Stars like Allen Iverson, Kobe Bryant, and Tracy McGrady built their games on one-on-one scoring. In contrast, the 2014–15 San Antonio Spurs showcased the pinnacle of team-oriented, ball-movement offense, often recording some of the league’s highest assist percentages while maintaining elite scoring efficiency.
 
 Overall, this represents the shift in style from an individual playstyle to a more team-oriented playstyle.
 
