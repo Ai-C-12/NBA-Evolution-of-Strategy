@@ -5,12 +5,12 @@ It highlights major shifts in **pace, rebounding, defense, shooting efficiency, 
 
 ## **Key Analyses**
 We analyze NBA league basic counting data and advanced metric data from the official [NBA Stats API](https://github.com/swar/nba_api) to quantify changes in:</br>
-Pace & Possessions → How tempo has changed across eras.</br>
-Rebounding Strategy → Shift from offensive rebounding to transition defense.</br>
-Defense Trends → Defensive rating, steals, and blocks over time.</br>
-Scoring Efficiency → Effective FG% and True Shooting% trends.</br>
-Assists vs Isolation → Team ball vs isolation baskets.</br>
-3PT Evolution → The growth of 3-point attempts and efficiency.</br>
+ - **Pace & Possessions** → How tempo has changed across eras.</br>
+ - **Rebounding Strategy** → Shift from offensive rebounding to transition defense.</br>
+ - **Defense Trends** → Defensive rating, steals, and blocks over time.</br>
+ - **Scoring Efficiency** → Effective FG% and True Shooting% trends.</br>
+ - **Assists vs Isolation** → Team ball vs isolation baskets.</br>
+ - **3PT Evolution** → The growth of 3-point attempts and efficiency.</br>
 
 
 ## **Table of contents**
