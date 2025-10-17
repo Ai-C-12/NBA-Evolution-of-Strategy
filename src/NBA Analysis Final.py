@@ -84,13 +84,10 @@ final_basic.to_csv("basic_NBA_data.csv", index=False)
 # Combined advanced and basic NBA data to csv
 final_data1 = pd.read_csv("advanced_NBA_data.csv")
 final_data2 = pd.read_csv("basic_NBA_data.csv")
-final_df = pd.merge(final_data1, final_data2, on=['TEAM_NAME', 'SEASON'], how='outer')
+final_df = pd.merge(final_data1, final_data2, on=["TEAM_NAME", "SEASON", "GP", "W", "L", "W_PCT"], how="outer")
 
 # Dropped and replaced null values
-final_df.dropna(subset=["TEAM_NAME", "GP_y", "W_y", "L_y", "W_PCT_y"], inplace=True)
-
-# Rename columns
-final_df = final_df.rename(columns={"GP_x":"GP", "W_x":"W", "L_x":"L", "W_PCT_x":"W_PCT"})
+final_df.dropna(subset=["TEAM_NAME"], inplace=True)
 
 # Fill NaN basic stats to 0
 basic_stats = ["FGM", "FGA", "FG3M", "FG3A", "FTM", "FTA", "OREB", "DREB", "REB", "AST", "TOV", "STL", "BLK", "BLKA", "PF", "PFD", "PTS"]
