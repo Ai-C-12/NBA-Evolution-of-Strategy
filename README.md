@@ -30,12 +30,11 @@ We analyze NBA league basic counting data and advanced metric data from the offi
 When we watch older games in the NBA, it's more prominent that how we play today isn't like how we used to play. It's almost as if they were much worse, even though avid fans would argue that today's game is "soft" and required less skill than the league back then. So I wanted to look into this myself and see what part of the game, then, did we take away to get to our style of play today.  
 
 ## **Data**
-- **Source(s):** NBA Stats API (accessed via Python requests or nba_api library).
-- **License:** e.g., CC-BY, proprietary, etc.
-- **Size:**
+**Source(s):** NBA Stats API (accessed via Python requests or nba_api library).
+**Size:**
    - **Rows:** One entry per team per season (≈30 teams × ~30 seasons = ~900 rows).
    - **Columns:** 42 total, including advanced metrics and identifiers such as season, team_id, pace, efg%, ts%, def_rating, orb%, drb%, 3pa, and 3p%.
-- **Data dictionary:** 
+**Data dictionary:** 
    - SEASON: Year or range representing the NBA season (e.g., 2023–24).
    - TEAM_NAME: Team name.
    - PACE: Possessions per 48 minutes (game tempo).
