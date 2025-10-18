@@ -65,8 +65,7 @@ Environment:
 Optional: Dockerfile or Binder link (if provided).
 
 ## **Usage — step-by-step**
-### 1. 
-Download raw data from NBA api (Seasons 2000-25):
+### 1. Download raw data from NBA api (Seasons 2000-25):
 ```bash
 python script/fetch_data.py
 ```
@@ -74,8 +73,7 @@ This will save the following CSVs in data/raw:
 - basic_NBA_data.csv
 - advanced_NBA_data.csv
 
-### 2.
-Preprocess:
+### 2. Preprocess:
 ```bash
 python script/preprocess.py --input data/raw --output data/processed
 ```
