@@ -69,6 +69,7 @@ Optional: Dockerfile or Binder link (if provided).
 Download raw data from NBA api (Seasons 2000-25):
 ```bash
 python script/fetch_data.py
+```bash
 This will save the following CSVs in data/raw:
 - basic_NBA_data.csv
 - advanced_NBA_data.csv
@@ -77,11 +78,13 @@ This will save the following CSVs in data/raw:
 Preprocess:
 ```bash
 python script/preprocess.py --input data/raw --output data/processed
+```bash
 This will clean the data by removing NaN values and filling counting statistics with 0.
 
 ### 3. Plot Figures:
 ```bash
 python script/plot.py
+```bash
 Plots out some graphs to show trends.
 
 ## **Code layout**
