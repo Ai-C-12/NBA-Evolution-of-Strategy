@@ -25,7 +25,7 @@ We analyze NBA league basic counting data and advanced metric data from the offi
 - [Contact](#contact)
 
 ## **Motivation**
-Short background and the research question(s) being answered.
+When we watch older games in the NBA, it's more prominent that how we play today isn't like how we used to play. It's almost as if they were much worse, even though avid fans would argue that today's game is "soft" and required less skill than the league back then. So I wanted to look into this myself and see what part of the game, then, did we take away to get to our style of play today.  
 
 ## **Data**
 - **Source(s):** NBA Stats API (accessed via Python requests or nba_api library).
@@ -45,23 +45,22 @@ Short background and the research question(s) being answered.
    - FGA / FG_PCT: Field goal attempts and field goal percentage.
    (Full data dictionary in Data_dictionary.md)
 
-## **Methods (brief)**
-- Preprocessing steps: e.g., missing-value handling, normalization, filtering rules.
-- Modeling / analysis: e.g., regression, random forest, hypothesis tests, packages used.
-- Key hyperparameters or settings.
+## **Methods**
+**Preprocessing steps:** 
+- Removed NaN rows in TEAM_NAMES since older teams that used to exist still show within the database as NaN in more recent data.
+- Filled NaN values of counting statistics (e.g. FGA, FGM, BLK, AST, PTS) since it can cause errors for visualization and maintains numerical consistency.
+- Left advanced metrics (e.g. FG_PCT, PACE, EFG_PCT, TS_PCT) since filling it with 0 would distort the data and show incorrect data (e.g. A 0% TS_PCT would mean 100% miss throughout the year.) 
+**Modeling / analysis:** 
+- Grouped team data to aggregate league wide averages for each metric.
+- Generated time-series plots using matplotlib to visualize any key trends or shifts.
+**Tools Used:** Python (pandas, nba_api, matplotlib) for data handling, processing, and visualization.
 
 ## **Reproducibility**
-Environment:
-- Included file: environment.yml (conda) or requirements.txt (pip)
-- Example (conda):
-  - conda env create -f environment.yml
-  - conda activate myproject
-- Or (pip):
-  - python -m venv venv
-  - source venv/bin/activate
-  - pip install -r requirements.txt
-
-Optional: Dockerfile or Binder link (if provided).
+```bash
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
 
 ## **Usage — step-by-step**
 ### 1. Download raw data from NBA api (Seasons 2000-25):
