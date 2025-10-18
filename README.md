@@ -119,22 +119,22 @@ NBA-Evolution-Analysis/
 ## **Results**
 
 ### Pace vs Possessions
-![Pace vs Possessions](output/Pace vs Possessions.png)
+![Pace vs Possessions](outputs/Pace vs Possessions.png)
 
 ### Rebounding Strategy
-![Rebounding](output/Rebounding Strategy (Every 5 Seasons).png)
+![Rebounding](outputs/Rebounding Strategy (Every 5 Seasons).png)
 
 ### Defensive Trends
-![Defense](output/Defense.png)
+![Defense](outputs/Defense.png)
 
 ### Scoring Efficiency
-![Scoring Efficiency](output/Scoring Efficiency.png)
+![Scoring Efficiency](outputs/Scoring Efficiency.png)
 
 ### Assisted vs Isolation Baskets
-![Assist vs Iso](output/Assists vs Iso.png)
+![Assist vs Iso](outputs/Assists vs Iso.png)
 
 ### 3-Point Evolution
-![3-Point Efficiency](output/3-Point Efficiency.png)
+![3-Point Efficiency](outputs/3-Point Efficiency.png)
 
 Further Insights:
 Dashboard link***
