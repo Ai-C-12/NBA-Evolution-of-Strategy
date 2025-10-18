@@ -86,6 +86,7 @@ python script/plot.py
 Plots out some graphs to show trends.
 
 ## **Code layout**
+<pre>
 NBA-Evolution-Analysis/</br>
 │</br>
 ├── data/</br>
@@ -115,6 +116,7 @@ NBA-Evolution-Analysis/</br>
 ├── Data_dictionary.md
 ├── README.md</br>
 └── requirements.txt</br>
+</pre>
 
 ## **Results**
 - Brief highlights of the main findings.
