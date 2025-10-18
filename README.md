@@ -65,27 +65,42 @@ Environment:
 Optional: Dockerfile or Binder link (if provided).
 
 ## **Usage — step-by-step**
-1. Get the data:
-   - Download: script or link, e.g., scripts/download_data.sh
-   - Or: instructions to request credentials if private
-2. Preprocess:
-   - python src/preprocess.py --input data/raw --output data/processed
-3. Run analysis:
-   - python src/run_analysis.py --config config/config.yml
-4. Recreate figures:
-   - python src/plot_results.py --results results/ --out results/figures
-5. Jupyter notebooks:
-   - jupyter lab notebooks/ (notebooks are ordered; run 01_prepare_data.ipynb first)
+### 1. 
+Download raw data from NBA api (Seasons 2000-25):
+```bash
+python script/fetch_data.py
+This will save the following CSVs in data/raw:
+- basic_NBA_data.csv
+- advanced_NBA_data.csv
 
-Replace commands above with the exact commands your project uses.
+### 2.
+Preprocess:
+```bash
+python script/preprocess.py --input data/raw --output data/processed
+This will clean the data by removing NaN values and filling counting statistics with 0.
+
+### 3. Plot Figures:
+```bash
+python script/plot.py
+Plots out some graphs to show trends.
 
 ## **Code layout**
-- notebooks/01_exploration.ipynb — exploratory analysis
-- src/data.py — data loading and preprocessing functions
-- src/models.py — model training and evaluation
-- src/utils.py — helper functions
-- scripts/ — convenience scripts for running the pipeline
-- results/ — final outputs and figures
+NBA-Evolution-Analysis/</br>
+│</br>
+├── data/</br>
+│   ├── raw/</br>
+│   │   ├── basic_NBA_data.csv</br>
+│   │   └── advanced_NBA_data.csv</br>
+│   └── processed/</br>
+│       └── NBA_processed_combined_data.csv</br>
+│</br>
+├── src/</br>
+│   ├── fetch_data.py</br>
+│   ├── preprocess.py</br>
+│   └── plot.py</br>
+│</br>
+├── requirements.txt</br>
+└── README.md</br>
 
 ## **Results**
 - Brief highlights of the main findings.
