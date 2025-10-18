@@ -117,25 +117,24 @@ NBA-Evolution-Analysis/
 </pre>
 
 ## **Results**
-Our analysis of NBA team statistics from 2000–2025 highlights key trends across pace, scoring, defense, and team strategy.
 
 ### Pace vs Possessions
-Teams have generally increased the number of possessions per game over time, reflecting a faster tempo in modern NBA seasons.
+[Pace vs Possessions](output/Pace vs Possessions.png)
 
 ### Rebounding Strategy
-A shift from offensive to defensive rebounding is evident. Modern teams emphasize limiting opponents’ second-chance opportunities.
+[Rebounding](output/Rebounding Strategy (Every 5 Seasons).png)
 
 ### Defensive Trends
-Defensive efficiency has improved over time, with blocks and steals showing fluctuations across eras.
+[Defense](output/Defense.png)
 
 ### Scoring Efficiency
-Effective Field Goal % (EFG%) and True Shooting % (TS%) have gradually increased, while field goal attempts have grown alongside pace.
+[Scoring Efficiency](output/Scoring Efficiency.png)
 
 ### Assisted vs Isolation Baskets
-There is a trend toward more ball movement, with assist percentages increasing relative to isolation plays.
+[Assist vs Iso](output/Assists vs Iso.png)
 
 ### 3-Point Evolution
-Three-point attempts have surged over the years, reflecting a league-wide emphasis on perimeter shooting, while EFG% remains relatively stable.
+[3-Point Efficiency](output/3-Point Efficiency.png)
 
 Further Insights:
 Dashboard link***
