@@ -35,14 +35,15 @@ Short background and the research question(s) being answered.
    - **Columns:** 42 total, including advanced metrics and identifiers such as season, team_id, pace, efg%, ts%, def_rating, orb%, drb%, 3pa, and 3p%.
 - **Data dictionary:** 
    - SEASON: Year or range representing the NBA season (e.g., 2023–24).
-   - team: Team name.
-   - pace: Possessions per 48 minutes (game tempo).
-   - efg%: Effective field goal percentage (shooting efficiency).
-   - ts%: True shooting percentage (overall scoring efficiency).
-   - def_rating: Points allowed per 100 possessions.
-   - orb% / drb%: Offensive and defensive rebounding rates.
-   - 3pa / 3p%: 3-point attempts and accuracy.
-   (Full data dictionary in data_dictionary.md)
+   - TEAM_NAME: Team name.
+   - PACE: Possessions per 48 minutes (game tempo).
+   - EFG_PCT: Effective field goal percentage (shooting efficiency).
+   - TS_PCT: True shooting percentage (overall scoring efficiency).
+   - DEF_RATING / OFF_RATING: Points allowed per 100 possessions and Points scored per 100 possessions.
+   - OREB_PCT / DREB_PCT: Offensive and defensive rebounding rates.
+   - FG3A / FG3_PCT: 3-point attempts and 3-point percentage.
+   - FGA / FG_PCT: Field goal attempts and field goal percentage.
+   (Full data dictionary in Data_dictionary.md)
 
 ## **Methods (brief)**
 - Preprocessing steps: e.g., missing-value handling, normalization, filtering rules.
@@ -140,9 +141,8 @@ Further Insights:
 Dashboard link***
 
 ## **Limitations & ethics**
-- Known limitations and assumptions (small sample sizes, biases, missingness).
-- Privacy or ethical considerations (PII removed? anonymized?).
-- If data are sensitive: state that raw data are not included and describe how to access. 
+- Data only includes NBA team stats from 2000–2025. Some values may be missing or incomplete.
+- Merging datasets and filling NaNs with 0 may introduce minor biases.
 
 ## **Contact**
-- Maintainer: Aidan Chow (GitHub: @Ai-C-12, email: chow.aidanl@gmail.com)
+Maintainer: Aidan Chow (GitHub: @Ai-C-12, email: chow.aidanl@gmail.com)
