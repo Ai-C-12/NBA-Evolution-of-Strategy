@@ -24,6 +24,8 @@ We analyze NBA league basic counting data and advanced metric data from the offi
 - [Limitations & ethics](#limitations--ethics)
 - [Contact](#contact)
 
+---
+
 ## **Motivation**
 When we watch older games in the NBA, it's more prominent that how we play today isn't like how we used to play. It's almost as if they were much worse, even though avid fans would argue that today's game is "soft" and required less skill than the league back then. So I wanted to look into this myself and see what part of the game, then, did we take away to get to our style of play today.  
 
