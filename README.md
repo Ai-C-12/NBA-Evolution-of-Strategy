@@ -22,8 +22,6 @@ We analyze NBA league basic counting data and advanced metric data from the offi
 - [Code layout](#code-layout)
 - [Results](#results)
 - [Limitations & ethics](#limitations--ethics)
-- [Contributing](#contributing)
-- [License & citation](#license--citation)
 - [Contact](#contact)
 
 ## **Motivation**
@@ -119,27 +117,33 @@ NBA-Evolution-Analysis/
 </pre>
 
 ## **Results**
-- Brief highlights of the main findings.
-- Link to key figures: results/figure_main.png
-- If you have an HTML report or dashboard, link to it.
+Our analysis of NBA team statistics from 2000–2025 highlights key trends across pace, scoring, defense, and team strategy.
+
+### 1. Pace vs Possessions
+Teams have generally increased the number of possessions per game over time, reflecting a faster tempo in modern NBA seasons.
+
+### 2. Rebounding Strategy
+A shift from offensive to defensive rebounding is evident. Modern teams emphasize limiting opponents’ second-chance opportunities.
+
+### 3. Defensive Trends
+Defensive efficiency has improved over time, with blocks and steals showing fluctuations across eras.
+
+### 4. Scoring Efficiency
+Effective Field Goal % (EFG%) and True Shooting % (TS%) have gradually increased, while field goal attempts have grown alongside pace.
+
+### 5. Assisted vs Isolation Baskets
+There is a trend toward more ball movement, with assist percentages increasing relative to isolation plays.
+
+### 6. 3-Point Evolution
+Three-point attempts have surged over the years, reflecting a league-wide emphasis on perimeter shooting, while EFG% remains relatively stable.
+
+Further Insights:
+Dashboard link***
 
 ## **Limitations & ethics**
 - Known limitations and assumptions (small sample sizes, biases, missingness).
 - Privacy or ethical considerations (PII removed? anonymized?).
-- If data are sensitive: state that raw data are not included and describe how to access.
-
-## **Tests & validation**
-- How results were validated (cross-validation, holdout set).
-- How to run unit tests (if any):
-  - pytest tests/
-
-## **Contributing**
-- How to raise issues or PRs.
-- Code style and testing expectations.
-
-## **License & citation**
-- License: e.g., MIT / CC-BY / proprietary
-- How to cite this work (provide citation, DOI, or BibTeX).
+- If data are sensitive: state that raw data are not included and describe how to access. 
 
 ## **Contact**
 - Maintainer: Aidan Chow (GitHub: @Ai-C-12, email: chow.aidanl@gmail.com)
