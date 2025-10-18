@@ -45,7 +45,7 @@ When we watch older games in the NBA, it's more prominent that how we play today
    - OREB_PCT / DREB_PCT: Offensive and defensive rebounding rates.
    - FG3A / FG3_PCT: 3-point attempts and 3-point percentage.
    - FGA / FG_PCT: Field goal attempts and field goal percentage.
-   (Full data dictionary in Data_dictionary.md)
+   (Full data dictionary in [Data_dictionary.md](Data_dictionary.md))
 
 ## **Methods**
 **Preprocessing steps:** 
