@@ -95,13 +95,26 @@ NBA-Evolution-Analysis/</br>
 │   └── processed/</br>
 │       └── NBA_processed_combined_data.csv</br>
 │</br>
-├── src/</br>
+├── notebooks/</br>
+|   └──NBA_data.ipynb</br>
+|</br>
+├── outputs/</br>
+│   ├── 3-Point Efficiency.png</br>
+│   ├── Assists vs Iso.png</br>
+│   ├── Defense.png</br>
+│   ├── Pace vs Possessions.png</br>
+│   ├── Rebounding Strategy (Every 5 Seasons).png</br>
+│   └── Scoring Efficiency.png</br>
+|</br>
+├── script/</br>
 │   ├── fetch_data.py</br>
 │   ├── preprocess.py</br>
 │   └── plot.py</br>
 │</br>
-├── requirements.txt</br>
-└── README.md</br>
+├── Analysis.md</br>
+├── Data_dictionary.md
+├── README.md</br>
+└── requirements.txt</br>
 
 ## **Results**
 - Brief highlights of the main findings.
