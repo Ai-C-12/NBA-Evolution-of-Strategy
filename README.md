@@ -87,35 +87,35 @@ Plots out some graphs to show trends.
 
 ## **Code layout**
 <pre>
-NBA-Evolution-Analysis/</br>
-│</br>
-├── data/</br>
-│   ├── raw/</br>
-│   │   ├── basic_NBA_data.csv</br>
-│   │   └── advanced_NBA_data.csv</br>
-│   └── processed/</br>
-│       └── NBA_processed_combined_data.csv</br>
-│</br>
-├── notebooks/</br>
-|   └──NBA_data.ipynb</br>
-|</br>
-├── outputs/</br>
-│   ├── 3-Point Efficiency.png</br>
-│   ├── Assists vs Iso.png</br>
-│   ├── Defense.png</br>
-│   ├── Pace vs Possessions.png</br>
-│   ├── Rebounding Strategy (Every 5 Seasons).png</br>
-│   └── Scoring Efficiency.png</br>
-|</br>
-├── script/</br>
-│   ├── fetch_data.py</br>
-│   ├── preprocess.py</br>
-│   └── plot.py</br>
-│</br>
-├── Analysis.md</br>
+NBA-Evolution-Analysis/
+│
+├── data/
+│   ├── raw/
+│   │   ├── basic_NBA_data.csv
+│   │   └── advanced_NBA_data.csv
+│   └── processed/
+│       └── NBA_processed_combined_data.csv
+│
+├── notebooks/
+|   └──NBA_data.ipynb
+|
+├── outputs/
+│   ├── 3-Point Efficiency.png
+│   ├── Assists vs Iso.png
+│   ├── Defense.png
+│   ├── Pace vs Possessions.png
+│   ├── Rebounding Strategy (Every 5 Seasons).png
+│   └── Scoring Efficiency.png
+|
+├── script/
+│   ├── fetch_data.py
+│   ├── preprocess.py
+│   └── plot.py
+│
+├── Analysis.md
 ├── Data_dictionary.md
-├── README.md</br>
-└── requirements.txt</br>
+├── README.md
+└── requirements.txt
 </pre>
 
 ## **Results**
