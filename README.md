@@ -50,10 +50,10 @@ When we watch older games in the NBA, it's more prominent that how we play today
 **Preprocessing steps:** 
 - Removed NaN rows in TEAM_NAMES since older teams that used to exist still show within the database as NaN in more recent data.
 - Filled NaN values of counting statistics (e.g. FGA, FGM, BLK, AST, PTS) since it can cause errors for visualization and maintains numerical consistency.
-- Left advanced metrics (e.g. FG_PCT, PACE, EFG_PCT, TS_PCT) since filling it with 0 would distort the data and show incorrect data (e.g. A 0% TS_PCT would mean 100% miss throughout the year.) 
+- Left advanced metrics (e.g. FG_PCT, PACE, EFG_PCT, TS_PCT) since filling it with 0 would distort the data and show incorrect data (e.g. A 0% TS_PCT would mean 100% miss throughout the year.)</br>
 **Modeling / analysis:** 
 - Grouped team data to aggregate league wide averages for each metric.
-- Generated time-series plots using matplotlib to visualize any key trends or shifts.
+- Generated time-series plots using matplotlib to visualize any key trends or shifts.</br>
 **Tools Used:** Python (pandas, nba_api, matplotlib) for data handling, processing, and visualization.
 
 ## **Reproducibility**
