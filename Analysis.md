@@ -61,4 +61,17 @@ Overall, this represents the shift in style from an individual playstyle to a mo
 
 ---
 
+## Dashboard Analysis
+**Pace Overtime:** The league pace has steadily increased since 2013, indicating a shift toward a faster, more transition-focused game. This trend aligns with the rise of small-ball (smaller & faster players) lineups and a higher volume of possessions per game, contributing to increased scoring and more dynamic playstyles.</br>
+
+**Assists to Effective Field-Goal Percentage:** Teams with higher assist numbers tend to have better effective field-goal percentages, suggesting that ball movement and unselfish play are key drivers of offensive efficiency. This is shown by the San Antonio Spurs, whose offense has historically emphasized passing and team-oriented play, resulting in consistently high effective field-goal percentages.</br>
+
+**League Shot Selection:** Over time, 3-point attempts have increased significantly, while mid-range shots have declined. This reflects a league-wide shift toward analytics-based shot selection, prioritizing efficiency, either shooting from beyond the arc or close to the basket. Free throw rates have remained relatively stable, indicating that while shot locations are changing, physicality and fouls drawn have not changed as dramatically.</br>
+
+****Eras dropdown** to compare 2000s, 2010s, and 2020s era.
+****Seasons dropdown** to look at league performance per season.
+****Top teams table** to show the top 10 teams during the selected era or year.
+
+---
+
 Over the past 25 years, the NBA has evolved from a midrange and isolation-heavy league into a data-driven style centered around pace, spacing, and efficiency. The modern game reflects the direct influence of analytics on coaching philosophy, prioritizing shot quality over volume, versatility over size, and transition opportunities over offensive rebounding. This transformation underscores how deeply statistical insights now shape strategic decisions at every level of basketball.
