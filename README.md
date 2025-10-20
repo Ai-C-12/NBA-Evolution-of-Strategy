@@ -142,7 +142,7 @@ NBA-Evolution-Analysis/
 ### 3-Point Evolution
 ![3-Point Efficiency](outputs/3-Point%20Efficiency.png)
 
-For further insights, you can download the Power BI dashboard here<pre>  ➡️  </pre>[Dashboard Link](./dashboard)
+For further insights, you can download the Power BI dashboard here: [Dashboard File](./dashboard)
 
 ## **Limitations & ethics**
 - Data only includes NBA team stats from 2000–2025. Some values may be missing or incomplete.
