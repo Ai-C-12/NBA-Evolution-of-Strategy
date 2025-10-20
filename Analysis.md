@@ -68,9 +68,9 @@ Overall, this represents the shift in style from an individual playstyle to a mo
 
 **League Shot Selection:** Over time, 3-point attempts have increased significantly, while mid-range shots have declined. This reflects a league-wide shift toward analytics-based shot selection, prioritizing efficiency, either shooting from beyond the arc or close to the basket. Free throw rates have remained relatively stable, indicating that while shot locations are changing, physicality and fouls drawn have not changed as dramatically.</br>
 
-****Eras dropdown** to compare 2000s, 2010s, and 2020s era.
-****Seasons dropdown** to look at league performance per season.
-****Top teams table** to show the top 10 teams during the selected era or year.
+****Eras dropdown** to compare 2000s, 2010s, and 2020s era.</br>
+****Seasons dropdown** to look at league performance per season.</br>
+****Top teams table** to show the top 10 teams during the selected era or year.</br>
 
 ---
 
