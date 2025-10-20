@@ -149,4 +149,6 @@ For further insights, you can download the Power BI dashboard here: [Dashboard F
 - Merging datasets and filling NaNs with 0 may introduce minor biases.
 
 ## **Contact**
-Maintainer: Aidan Chow (GitHub: @Ai-C-12, email: chow.aidanl@gmail.com)
+Aidan Chow</br> 
+GitHub: @Ai-C-12</br> 
+Email: chow.aidanl@gmail.com
