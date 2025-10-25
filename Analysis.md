@@ -61,7 +61,7 @@ Overall, this represents the shift in style from an individual playstyle to a mo
 
 ---
 
-## Dashboard Analysis ([Link🔗]([./dashboard](https://app.powerbi.com/groups/me/reports/ab565f68-e754-480e-8850-131453777989/809c22f730a8035aa53c?experience=power-bi)))
+## Dashboard Analysis ([Link🔗](https://app.powerbi.com/groups/me/reports/ab565f68-e754-480e-8850-131453777989/809c22f730a8035aa53c?experience=power-bi))
 **Pace Overtime:** The league pace has steadily increased since 2013, indicating a shift toward a faster, more transition-focused game. This trend aligns with the rise of small-ball (smaller & faster players) lineups and a higher volume of possessions per game, contributing to increased scoring and more dynamic playstyles.</br>
 
 **Assists to Effective Field-Goal Percentage:** Teams with higher assist numbers tend to have better effective field-goal percentages, suggesting that ball movement and unselfish play are key drivers of offensive efficiency. This is shown by the San Antonio Spurs, whose offense has historically emphasized passing and team-oriented play, resulting in consistently high effective field-goal percentages.</br>
