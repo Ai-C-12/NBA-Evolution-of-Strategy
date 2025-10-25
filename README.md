@@ -90,9 +90,6 @@ Plots out some graphs to show trends.
 <pre>
 NBA-Evolution-Analysis/
 │
-├── dashboard/
-│   └── NBA_dashboard.pbix
-│
 ├── data/
 │   ├── raw/
 │   │   ├── basic_NBA_data.csv
