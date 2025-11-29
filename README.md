@@ -147,5 +147,4 @@ For further insights, you can find the Power BI dashboard here: [Dashboard File]
 
 ## **Contact**
 Aidan Chow</br> 
-GitHub: @Ai-C-12</br> 
 Email: chow.aidanl@gmail.com
